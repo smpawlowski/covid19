@@ -1,1 +1,1 @@
-# covid19.github.io
+# https://smpawlowski.github.io/covid19/
