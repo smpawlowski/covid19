@@ -1,6 +1,7 @@
 <html>
 <head>
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<meta name="google-site-verification" content="C7OtmpihlobLAt4XdOw8seKHz_7g-Ls0JzGUtVnDoQU" />
 <style>
 table, th, td {
     border: 1px solid black;
