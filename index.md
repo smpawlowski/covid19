@@ -17,7 +17,7 @@ th {
 </style>
 </head>
 <body>
-<p>Global COVID-19 cases followed by 75 regions with highest number of confirmed cases.</p><p>Source:  Johns Hopkins Coronavirus Resource Center published <a href="https://github.com/CSSEGISandData/2019-nCoV">here</a> (updated daily).</p><p>Last reported date: 2020-03-21. Page updated 2020-03-22T06:18:24.666Z[UTC].</p><p>Real time map <a href="https://coronavirus.jhu.edu/map.html">here</a>.</p>    <div id='div0' ></div>
+<p>Global COVID-19 cases followed by 75 regions with highest number of confirmed cases.</p><p>Source:  Johns Hopkins Coronavirus Resource Center published <a href="https://github.com/CSSEGISandData/2019-nCoV">here</a> (updated daily).</p><p>Last reported date: 2020-03-21. Page updated 2020-03-22T06:28:24.702Z[UTC].</p><p>Real time map <a href="https://coronavirus.jhu.edu/map.html">here</a>.</p>    <div id='div0' ></div>
     <div id='div1' ></div>
     <div id='div2' ></div>
     <div id='div3' ></div>
