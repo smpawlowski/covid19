@@ -17,7 +17,7 @@ th {
 </style>
 </head>
 <body>
-<p>Global COVID-19 cases followed by 75 regions with highest number of confirmed cases.</p><p>Source:  Johns Hopkins Coronavirus Resource Center published <a href="https://github.com/CSSEGISandData/2019-nCoV">here</a> (updated daily).</p><p>Last reported date: 2020-03-22. Page updated 2020-03-23T11:54:00.391Z[UTC].</p><p><a href="https://coronavirus.jhu.edu/map.html">[Johns Hopkins map]</a> <a href="https://ourworldindata.org/grapher/covid-confirmed-cases-since-100th-case">[Our World In Data trajectories]</a> <a href="https://ourworldindata.org/coronavirus#confirmed-covid-19-cases-by-country">[Our World In Data cases by country]</a></p>    <div id='div0' ></div>
+<p>Global COVID-19 cases followed by 75 regions with highest number of confirmed cases.</p><p>Source:  Johns Hopkins Coronavirus Resource Center published <a href="https://github.com/CSSEGISandData/2019-nCoV">here</a> (updated daily).</p><p>Last reported date: 2020-03-22. Page updated 2020-03-23T12:04:00.450Z[UTC].</p><p><a href="https://coronavirus.jhu.edu/map.html">[Johns Hopkins map]</a> <a href="https://ourworldindata.org/grapher/covid-confirmed-cases-since-100th-case">[Our World In Data trajectories]</a> <a href="https://ourworldindata.org/coronavirus#confirmed-covid-19-cases-by-country">[Our World In Data cases by country]</a></p>    <div id='div0' ></div>
     <div id='div1' ></div>
     <div id='div2' ></div>
     <div id='div3' ></div>
