@@ -17,7 +17,7 @@ th {
 </style>
 </head>
 <body>
-<p>Global COVID-19 cases followed by 75 regions with highest number of confirmed cases.</p><p>Source:  Johns Hopkins Coronavirus Resource Center published <a href="https://github.com/CSSEGISandData/2019-nCoV">here</a> (updated daily).</p><p>Last reported date: 2020-03-23. Page updated 2020-03-24T16:50:26.577Z[UTC].</p><p><a target="_blank" href="https://coronavirus.jhu.edu/map.html">[Johns Hopkins map]</a> <a target="_blank" href="https://ourworldindata.org/grapher/covid-confirmed-cases-since-100th-case">[Our World In Data trajectories]</a> <a target="_blank" href="https://ourworldindata.org/coronavirus#confirmed-covid-19-cases-by-country">[Our World In Data cases by country]</a> <a target="_blank" href="https://gabgoh.github.io/COVID/index.html">[SEIR online calculator]</a></p><div class="share-page">
+<p>Global COVID-19 cases followed by 75 regions with highest number of confirmed cases.</p><p>Source:  Johns Hopkins Coronavirus Resource Center published <a href="https://github.com/CSSEGISandData/2019-nCoV">here</a> (updated daily).</p><p>Last reported date: 2020-03-23. Page updated 2020-03-24T16:55:38.817Z[UTC].</p><p><a target="_blank" href="https://coronavirus.jhu.edu/map.html">[Johns Hopkins map]</a> <a target="_blank" href="https://ourworldindata.org/grapher/covid-confirmed-cases-since-100th-case">[Our World In Data trajectories]</a> <a target="_blank" href="https://ourworldindata.org/coronavirus#confirmed-covid-19-cases-by-country">[Our World In Data cases by country]</a> <a target="_blank" href="https://gabgoh.github.io/COVID/index.html">[SEIR online calculator]</a></p><div class="share-page">
     Share &rarr;     <a target="_blank" href="https://twitter.com/intent/tweet?url=https://smpawlowski.github.io/covid19/">[Twitter]</a>     <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsmpawlowski.github.io%2Fcovid19%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">[Facebook]</a>     <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=https://smpawlowski.github.io/covid19/">[LinkedIn]</a> </div>    <div id='div0' ></div>
     <div id='div1' ></div>
     <div id='div2' ></div>
@@ -141,7 +141,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -193,7 +193,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -245,7 +245,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -297,7 +297,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -349,7 +349,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -401,7 +401,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -453,7 +453,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -505,7 +505,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -557,7 +557,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -609,7 +609,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -661,7 +661,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -713,7 +713,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -765,7 +765,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -817,7 +817,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -869,7 +869,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -921,7 +921,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -973,7 +973,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -1025,7 +1025,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -1077,7 +1077,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -1129,7 +1129,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -1181,7 +1181,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -1233,7 +1233,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -1285,7 +1285,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -1337,7 +1337,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -1389,7 +1389,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -1441,7 +1441,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -1493,7 +1493,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -1545,7 +1545,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -1597,7 +1597,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -1649,7 +1649,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -1701,7 +1701,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -1753,7 +1753,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -1805,7 +1805,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -1857,7 +1857,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -1909,7 +1909,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -1961,7 +1961,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -2013,7 +2013,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -2065,7 +2065,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -2117,7 +2117,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -2169,7 +2169,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -2221,7 +2221,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -2273,7 +2273,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -2325,7 +2325,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -2377,7 +2377,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -2429,7 +2429,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -2481,7 +2481,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -2533,7 +2533,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -2585,7 +2585,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -2637,7 +2637,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -2689,7 +2689,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -2741,7 +2741,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -2793,7 +2793,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -2845,7 +2845,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -2897,7 +2897,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -2949,7 +2949,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -3001,7 +3001,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -3053,7 +3053,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -3105,7 +3105,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -3157,7 +3157,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -3209,7 +3209,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -3261,7 +3261,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -3313,7 +3313,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -3365,7 +3365,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -3417,7 +3417,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -3469,7 +3469,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -3521,7 +3521,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -3573,7 +3573,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -3625,7 +3625,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -3677,7 +3677,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -3729,7 +3729,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -3781,7 +3781,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -3833,7 +3833,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -3885,7 +3885,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -3937,7 +3937,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -3989,7 +3989,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
@@ -4041,7 +4041,7 @@ mode: 'lines',
 xaxis: 'x',
 yaxis: 'y',
 type: 'scatter',
-name: 'DAILY INCREASE [CONFIRMED]',
+name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
