@@ -17,7 +17,7 @@ th {
 </style>
 </head>
 <body>
-<p>Global COVID-19 cases followed by 75 regions with highest number of confirmed cases.</p><p>Source:  Johns Hopkins Coronavirus Resource Center published <a target="_blank" href="https://github.com/CSSEGISandData/2019-nCoV">here</a> (updated daily).</p><p>Last reported date: 2020-03-24. Page updated 2020-03-25T20:22:19.387Z[UTC].</p><p><a target="_blank" href="https://coronavirus.jhu.edu/map.html">[Johns Hopkins map]</a> <a target="_blank" href="https://ourworldindata.org/grapher/covid-confirmed-cases-since-100th-case">[Our World In Data trajectories]</a> <a target="_blank" href="https://ourworldindata.org/coronavirus#confirmed-covid-19-cases-by-country">[Our World In Data cases by country]</a> <a target="_blank" href="https://gabgoh.github.io/COVID/index.html">[SEIR online calculator]</a></p><div class="share-page">
+<p>Global COVID-19 cases followed by 75 regions with highest number of confirmed cases.</p><p>Source:  Johns Hopkins Coronavirus Resource Center published <a target="_blank" href="https://github.com/CSSEGISandData/2019-nCoV">here</a> (updated daily).</p><p>Last reported date: 2020-03-24. Page updated 2020-03-25T21:22:19.299Z[UTC].</p><p><a target="_blank" href="https://coronavirus.jhu.edu/map.html">[Johns Hopkins map]</a> <a target="_blank" href="https://ourworldindata.org/grapher/covid-confirmed-cases-since-100th-case">[Our World In Data trajectories]</a> <a target="_blank" href="https://ourworldindata.org/coronavirus#confirmed-covid-19-cases-by-country">[Our World In Data cases by country]</a> <a target="_blank" href="https://gabgoh.github.io/COVID/index.html">[SEIR online calculator]</a></p><div class="share-page">
     Share &rarr;     <a target="_blank" href="https://twitter.com/intent/tweet?url=https://smpawlowski.github.io/covid19/">[Twitter]</a>     <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsmpawlowski.github.io%2Fcovid19%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">[Facebook]</a>     <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=https://smpawlowski.github.io/covid19/">[LinkedIn]</a> </div>    <div id='div0' ></div>
     <div id='div1' ></div>
     <div id='div2' ></div>
@@ -97,7 +97,7 @@ th {
     <script>
         var target_div0 = document.getElementById('div0');
         var layout = {
-    title: 'GLOBAL CASES: 418,678 CONFIRMED',
+    title: 'GLOBAL CASES: 418,045 CONFIRMED',
     height: 720,
     width: 1280,
     xaxis: {
@@ -118,7 +118,7 @@ th {
 var trace0 =
 {
 x: ["2020-01-22","2020-01-23","2020-01-24","2020-01-25","2020-01-26","2020-01-27","2020-01-28","2020-01-29","2020-01-30","2020-01-31","2020-02-01","2020-02-02","2020-02-03","2020-02-04","2020-02-05","2020-02-06","2020-02-07","2020-02-08","2020-02-09","2020-02-10","2020-02-11","2020-02-12","2020-02-13","2020-02-14","2020-02-15","2020-02-16","2020-02-17","2020-02-18","2020-02-19","2020-02-20","2020-02-21","2020-02-22","2020-02-23","2020-02-24","2020-02-25","2020-02-26","2020-02-27","2020-02-28","2020-02-29","2020-03-01","2020-03-02","2020-03-03","2020-03-04","2020-03-05","2020-03-06","2020-03-07","2020-03-08","2020-03-09","2020-03-10","2020-03-11","2020-03-12","2020-03-13","2020-03-14","2020-03-15","2020-03-16","2020-03-17","2020-03-18","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-23","2020-03-24"],
-y: ["555.0","654.0","941.0","1434.0","2118.0","2927.0","5578.0","6166.0","8234.0","9927.0","12038.0","16787.0","19881.0","23892.0","27635.0","30794.0","34391.0","37120.0","40150.0","42762.0","44802.0","45221.0","60368.0","66885.0","69030.0","71224.0","73258.0","75136.0","75639.0","76197.0","76819.0","78572.0","78958.0","79561.0","80406.0","81388.0","82746.0","84112.0","86011.0","88369.0","90306.0","92840.0","95120.0","97882.0","101794.0","105831.0","109805.0","113571.0","118602.0","125875.0","128353.0","145209.0","156104.0","167454.0","181573.0","197150.0","214909.0","242706.0","272164.0","304519.0","337089.0","378547.0","418678.0"],
+y: ["555.0","654.0","941.0","1434.0","2118.0","2927.0","5578.0","6166.0","8234.0","9927.0","12038.0","16787.0","19881.0","23892.0","27635.0","30794.0","34391.0","37120.0","40150.0","42762.0","44802.0","45221.0","60368.0","66885.0","69030.0","71224.0","73258.0","75136.0","75639.0","76197.0","76819.0","78572.0","78958.0","79561.0","80406.0","81388.0","82746.0","84112.0","86011.0","88369.0","90306.0","92840.0","95120.0","97886.0","101801.0","105847.0","109821.0","113590.0","118620.0","125875.0","128352.0","145205.0","156101.0","167454.0","181574.0","197102.0","214821.0","242500.0","272035.0","304396.0","336953.0","378235.0","418045.0"],
 showlegend: true,
 mode: 'lines+markers',
 xaxis: 'x',
@@ -140,7 +140,7 @@ name: 'Sum [DEAD]',
 var trace2 =
 {
 x: ["2020-01-22","2020-01-23","2020-01-24","2020-01-25","2020-01-26","2020-01-27","2020-01-28","2020-01-29","2020-01-30","2020-01-31","2020-02-01","2020-02-02","2020-02-03","2020-02-04","2020-02-05","2020-02-06","2020-02-07","2020-02-08","2020-02-09","2020-02-10","2020-02-11","2020-02-12","2020-02-13","2020-02-14","2020-02-15","2020-02-16","2020-02-17","2020-02-18","2020-02-19","2020-02-20","2020-02-21","2020-02-22","2020-02-23","2020-02-24","2020-02-25","2020-02-26","2020-02-27","2020-02-28","2020-02-29","2020-03-01","2020-03-02","2020-03-03","2020-03-04","2020-03-05","2020-03-06","2020-03-07","2020-03-08","2020-03-09","2020-03-10","2020-03-11","2020-03-12","2020-03-13","2020-03-14","2020-03-15","2020-03-16","2020-03-17","2020-03-18","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-23","2020-03-24"],
-y: ["555","99","287","493","684","809","2651","588","2068","1693","2111","4749","3094","4011","3743","3159","3597","2729","3030","2612","2040","419","15147","6517","2145","2194","2034","1878","503","558","622","1753","386","603","845","982","1358","1366","1899","2358","1937","2534","2280","2762","3912","4037","3974","3766","5031","7273","2478","16856","10895","11350","14119","15577","17759","27797","29458","32355","32570","41458","40131"],
+y: ["555","99","287","493","684","809","2651","588","2068","1693","2111","4749","3094","4011","3743","3159","3597","2729","3030","2612","2040","419","15147","6517","2145","2194","2034","1878","503","558","622","1753","386","603","845","982","1358","1366","1899","2358","1937","2534","2280","2766","3915","4046","3974","3769","5030","7255","2477","16853","10896","11353","14120","15528","17719","27679","29535","32361","32557","41282","39810"],
 showlegend: true,
 mode: 'lines+markers',
 xaxis: 'x',
@@ -1123,64 +1123,7 @@ Plotly.newPlot(target_div17, data, layout);            </script>
     <script>
         var target_div18 = document.getElementById('div18');
         var layout = {
-    title: '18. Israel: 1,930 CONFIRMED',
-    height: 720,
-    width: 1280,
-    xaxis: {
-    title: 'DT',
-    },
-
-    yaxis: {
-    title: 'TOTAL_CASES',
-    },
-    yaxis2: {
-    title: 'NEW_CASES',
-    side: 'right',
-    overlaying: 'y'
-    },
-
-};
-
-var trace0 =
-{
-x: ["2020-02-21","2020-02-22","2020-02-23","2020-02-24","2020-02-25","2020-02-26","2020-02-27","2020-02-28","2020-02-29","2020-03-01","2020-03-02","2020-03-03","2020-03-04","2020-03-05","2020-03-06","2020-03-07","2020-03-08","2020-03-09","2020-03-10","2020-03-11","2020-03-12","2020-03-13","2020-03-14","2020-03-15","2020-03-16","2020-03-17","2020-03-18","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-23","2020-03-24"],
-y: ["1.0","1.0","1.0","1.0","1.0","2.0","3.0","4.0","7.0","10.0","10.0","12.0","15.0","20.0","37.0","43.0","61.0","61.0","83.0","109.0","131.0","161.0","193.0","251.0","255.0","337.0","433.0","677.0","705.0","883.0","1071.0","1442.0","1930.0"],
-showlegend: true,
-mode: 'lines+markers',
-xaxis: 'x',
-yaxis: 'y',
-type: 'scatter',
-name: 'CONFIRMED',
-};
-var trace1 =
-{
-x: ["2020-02-21","2020-02-22","2020-02-23","2020-02-24","2020-02-25","2020-02-26","2020-02-27","2020-02-28","2020-02-29","2020-03-01","2020-03-02","2020-03-03","2020-03-04","2020-03-05","2020-03-06","2020-03-07","2020-03-08","2020-03-09","2020-03-10","2020-03-11","2020-03-12","2020-03-13","2020-03-14","2020-03-15","2020-03-16","2020-03-17","2020-03-18","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-23","2020-03-24"],
-y: ["0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","1.0","1.0","3.0"],
-showlegend: true,
-mode: 'lines+markers',
-xaxis: 'x',
-yaxis: 'y',
-type: 'scatter',
-name: 'DEAD',
-};
-var trace2 =
-{
-x: ["2020-02-21","2020-02-22","2020-02-23","2020-02-24","2020-02-25","2020-02-26","2020-02-27","2020-02-28","2020-02-29","2020-03-01","2020-03-02","2020-03-03","2020-03-04","2020-03-05","2020-03-06","2020-03-07","2020-03-08","2020-03-09","2020-03-10","2020-03-11","2020-03-12","2020-03-13","2020-03-14","2020-03-15","2020-03-16","2020-03-17","2020-03-18","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-23","2020-03-24"],
-y: ["1","0","0","0","0","1","1","1","3","3","0","2","3","5","17","6","18","0","22","26","22","30","32","58","4","82","96","244","28","178","188","371","488"],
-showlegend: true,
-mode: 'lines+markers',
-xaxis: 'x',
-yaxis: 'y2',
-type: 'scatter',
-name: 'NEW CONFIRMED',
-};
-
-        var data = [ trace0, trace1, trace2];
-Plotly.newPlot(target_div18, data, layout);            </script>
-    <script>
-        var target_div19 = document.getElementById('div19');
-        var layout = {
-    title: '19. Turkey: 1,872 CONFIRMED',
+    title: '18. Turkey: 1,872 CONFIRMED',
     height: 720,
     width: 1280,
     xaxis: {
@@ -1233,11 +1176,11 @@ name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
-Plotly.newPlot(target_div19, data, layout);            </script>
+Plotly.newPlot(target_div18, data, layout);            </script>
     <script>
-        var target_div20 = document.getElementById('div20');
+        var target_div19 = document.getElementById('div19');
         var layout = {
-    title: '20. Malaysia: 1,624 CONFIRMED',
+    title: '19. Malaysia: 1,624 CONFIRMED',
     height: 720,
     width: 1280,
     xaxis: {
@@ -1290,11 +1233,11 @@ name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
-Plotly.newPlot(target_div20, data, layout);            </script>
+Plotly.newPlot(target_div19, data, layout);            </script>
     <script>
-        var target_div21 = document.getElementById('div21');
+        var target_div20 = document.getElementById('div20');
         var layout = {
-    title: '21. Denmark: 1,591 CONFIRMED',
+    title: '20. Denmark: 1,591 CONFIRMED',
     height: 720,
     width: 1280,
     xaxis: {
@@ -1347,11 +1290,11 @@ name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
-Plotly.newPlot(target_div21, data, layout);            </script>
+Plotly.newPlot(target_div20, data, layout);            </script>
     <script>
-        var target_div22 = document.getElementById('div22');
+        var target_div21 = document.getElementById('div21');
         var layout = {
-    title: '22. China - Guangdong: 1,428 CONFIRMED',
+    title: '21. China - Guangdong: 1,428 CONFIRMED',
     height: 720,
     width: 1280,
     xaxis: {
@@ -1404,11 +1347,11 @@ name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
-Plotly.newPlot(target_div22, data, layout);            </script>
+Plotly.newPlot(target_div21, data, layout);            </script>
     <script>
-        var target_div23 = document.getElementById('div23');
+        var target_div22 = document.getElementById('div22');
         var layout = {
-    title: '23. Czechia: 1,394 CONFIRMED',
+    title: '22. Czechia: 1,394 CONFIRMED',
     height: 720,
     width: 1280,
     xaxis: {
@@ -1461,11 +1404,11 @@ name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
-Plotly.newPlot(target_div23, data, layout);            </script>
+Plotly.newPlot(target_div22, data, layout);            </script>
     <script>
-        var target_div24 = document.getElementById('div24');
+        var target_div23 = document.getElementById('div23');
         var layout = {
-    title: '24. Ireland: 1,329 CONFIRMED',
+    title: '23. Ireland: 1,329 CONFIRMED',
     height: 720,
     width: 1280,
     xaxis: {
@@ -1518,11 +1461,11 @@ name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
-Plotly.newPlot(target_div24, data, layout);            </script>
+Plotly.newPlot(target_div23, data, layout);            </script>
     <script>
-        var target_div25 = document.getElementById('div25');
+        var target_div24 = document.getElementById('div24');
         var layout = {
-    title: '25. China - Henan: 1,274 CONFIRMED',
+    title: '24. China - Henan: 1,274 CONFIRMED',
     height: 720,
     width: 1280,
     xaxis: {
@@ -1575,11 +1518,11 @@ name: 'NEW CONFIRMED',
 };
 
         var data = [ trace0, trace1, trace2];
-Plotly.newPlot(target_div25, data, layout);            </script>
+Plotly.newPlot(target_div24, data, layout);            </script>
     <script>
-        var target_div26 = document.getElementById('div26');
+        var target_div25 = document.getElementById('div25');
         var layout = {
-    title: '26. China - Zhejiang: 1,240 CONFIRMED',
+    title: '25. China - Zhejiang: 1,240 CONFIRMED',
     height: 720,
     width: 1280,
     xaxis: {
@@ -1623,6 +1566,63 @@ var trace2 =
 {
 x: ["2020-01-22","2020-01-23","2020-01-24","2020-01-25","2020-01-26","2020-01-27","2020-01-28","2020-01-29","2020-01-30","2020-01-31","2020-02-01","2020-02-02","2020-02-03","2020-02-04","2020-02-05","2020-02-06","2020-02-07","2020-02-08","2020-02-09","2020-02-10","2020-02-11","2020-02-12","2020-02-13","2020-02-14","2020-02-15","2020-02-16","2020-02-17","2020-02-18","2020-02-19","2020-02-20","2020-02-21","2020-02-22","2020-02-23","2020-02-24","2020-02-25","2020-02-26","2020-02-27","2020-02-28","2020-02-29","2020-03-01","2020-03-02","2020-03-03","2020-03-04","2020-03-05","2020-03-06","2020-03-07","2020-03-08","2020-03-09","2020-03-10","2020-03-11","2020-03-12","2020-03-13","2020-03-14","2020-03-15","2020-03-16","2020-03-17","2020-03-18","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-23","2020-03-24"],
 y: ["10","17","16","19","42","24","45","123","132","110","61","62","63","105","66","59","52","42","27","17","25","14","14","10","7","5","4","1","2","1","28","2","0","0","0","0","0","0","0","0","1","7","0","2","0","0","0","0","0","0","0","0","12","4","0","1","0","1","1","2","2","0","2"],
+showlegend: true,
+mode: 'lines+markers',
+xaxis: 'x',
+yaxis: 'y2',
+type: 'scatter',
+name: 'NEW CONFIRMED',
+};
+
+        var data = [ trace0, trace1, trace2];
+Plotly.newPlot(target_div25, data, layout);            </script>
+    <script>
+        var target_div26 = document.getElementById('div26');
+        var layout = {
+    title: '26. Israel: 1,238 CONFIRMED',
+    height: 720,
+    width: 1280,
+    xaxis: {
+    title: 'DT',
+    },
+
+    yaxis: {
+    title: 'TOTAL_CASES',
+    },
+    yaxis2: {
+    title: 'NEW_CASES',
+    side: 'right',
+    overlaying: 'y'
+    },
+
+};
+
+var trace0 =
+{
+x: ["2020-02-21","2020-02-22","2020-02-23","2020-02-24","2020-02-25","2020-02-26","2020-02-27","2020-02-28","2020-02-29","2020-03-01","2020-03-02","2020-03-03","2020-03-04","2020-03-05","2020-03-06","2020-03-07","2020-03-08","2020-03-09","2020-03-10","2020-03-11","2020-03-12","2020-03-13","2020-03-14","2020-03-15","2020-03-16","2020-03-17","2020-03-18","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-23","2020-03-24"],
+y: ["1.0","1.0","1.0","1.0","1.0","2.0","3.0","4.0","7.0","10.0","10.0","12.0","15.0","20.0","37.0","43.0","61.0","61.0","75.0","79.0","100.0","126.0","155.0","213.0","218.0","250.0","304.0","427.0","529.0","712.0","883.0","1071.0","1238.0"],
+showlegend: true,
+mode: 'lines+markers',
+xaxis: 'x',
+yaxis: 'y',
+type: 'scatter',
+name: 'CONFIRMED',
+};
+var trace1 =
+{
+x: ["2020-02-21","2020-02-22","2020-02-23","2020-02-24","2020-02-25","2020-02-26","2020-02-27","2020-02-28","2020-02-29","2020-03-01","2020-03-02","2020-03-03","2020-03-04","2020-03-05","2020-03-06","2020-03-07","2020-03-08","2020-03-09","2020-03-10","2020-03-11","2020-03-12","2020-03-13","2020-03-14","2020-03-15","2020-03-16","2020-03-17","2020-03-18","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-23","2020-03-24"],
+y: ["0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","1.0","1.0","3.0"],
+showlegend: true,
+mode: 'lines+markers',
+xaxis: 'x',
+yaxis: 'y',
+type: 'scatter',
+name: 'DEAD',
+};
+var trace2 =
+{
+x: ["2020-02-21","2020-02-22","2020-02-23","2020-02-24","2020-02-25","2020-02-26","2020-02-27","2020-02-28","2020-02-29","2020-03-01","2020-03-02","2020-03-03","2020-03-04","2020-03-05","2020-03-06","2020-03-07","2020-03-08","2020-03-09","2020-03-10","2020-03-11","2020-03-12","2020-03-13","2020-03-14","2020-03-15","2020-03-16","2020-03-17","2020-03-18","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-23","2020-03-24"],
+y: ["1","0","0","0","0","1","1","1","3","3","0","2","3","5","17","6","18","0","14","4","21","26","29","58","5","32","54","123","102","183","171","188","167"],
 showlegend: true,
 mode: 'lines+markers',
 xaxis: 'x',
