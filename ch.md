@@ -17,7 +17,7 @@ th {
 </style>
 </head>
 <body>
-<p>COVID-19 cases in Switzerland.</p><p>Source: openZH <a target="_blank" href="https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total.csv">here</a>.</p><p>Last reported date: 2020-03-27. Page updated 2020-03-27T15:20:45.830Z[UTC].</p><div class="share-page">
+<p>COVID-19 cases in Switzerland.</p><p>Source: openZH <a target="_blank" href="https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total.csv">here</a>.</p><p>Last reported date: 2020-03-27. Page updated 2020-03-27T15:30:45.794Z[UTC].</p><div class="share-page">
     Share &rarr;     <a target="_blank" href="https://twitter.com/intent/tweet?url=https://smpawlowski.github.io/covid19/">[Twitter]</a>     <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsmpawlowski.github.io%2Fcovid19%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">[Facebook]</a>     <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=https://smpawlowski.github.io/covid19/">[LinkedIn]</a> </div>    <div id='div0' ></div>
     <div id='div1' ></div>
     <div id='div2' ></div>
@@ -2390,7 +2390,7 @@ Plotly.newPlot(target_div20, data, layout);            </script>
     <script>
         var target_div21 = document.getElementById('div21');
         var layout = {
-    title: '21. NW: 48 CONFIRMED',
+    title: '21. NW: 54 CONFIRMED',
     height: 720,
     width: 1280,
     xaxis: {
@@ -2410,8 +2410,8 @@ Plotly.newPlot(target_div20, data, layout);            </script>
 
 var trace0 =
 {
-x: ["2020-03-11","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-23","2020-03-24","2020-03-25","2020-03-26"],
-y: ["4","25","28","33","36","39","42","44","48"],
+x: ["2020-03-11","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-23","2020-03-24","2020-03-25","2020-03-26","2020-03-27"],
+y: ["4","25","28","33","36","39","42","44","48","54"],
 showlegend: true,
 mode: 'lines+markers',
 xaxis: 'x',
@@ -2421,8 +2421,8 @@ name: 'CONFIRMED',
 };
 var trace1 =
 {
-x: ["2020-03-11","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-23","2020-03-24","2020-03-25","2020-03-26"],
-y: ["null","null","null","null","null","null","null","null","null"],
+x: ["2020-03-11","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-23","2020-03-24","2020-03-25","2020-03-26","2020-03-27"],
+y: ["null","null","null","null","null","null","null","null","null","null"],
 showlegend: true,
 mode: 'lines+markers',
 xaxis: 'x',
@@ -2432,8 +2432,8 @@ name: 'HOSPITALIZED',
 };
 var trace2 =
 {
-x: ["2020-03-11","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-23","2020-03-24","2020-03-25","2020-03-26"],
-y: ["null","null","null","null","null","null","null","null","null"],
+x: ["2020-03-11","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-23","2020-03-24","2020-03-25","2020-03-26","2020-03-27"],
+y: ["null","null","null","null","null","null","null","null","null","null"],
 showlegend: true,
 mode: 'lines+markers',
 xaxis: 'x',
@@ -2443,8 +2443,8 @@ name: 'VENT',
 };
 var trace3 =
 {
-x: ["2020-03-11","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-23","2020-03-24","2020-03-25","2020-03-26"],
-y: ["null","null","null","null","null","null","null","null","null"],
+x: ["2020-03-11","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-23","2020-03-24","2020-03-25","2020-03-26","2020-03-27"],
+y: ["null","null","null","null","null","null","null","null","null","null"],
 showlegend: true,
 mode: 'lines+markers',
 xaxis: 'x',
@@ -2454,8 +2454,8 @@ name: 'ICU',
 };
 var trace4 =
 {
-x: ["2020-03-11","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-23","2020-03-24","2020-03-25","2020-03-26"],
-y: ["null","null","null","null","null","null","null","null","null"],
+x: ["2020-03-11","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-23","2020-03-24","2020-03-25","2020-03-26","2020-03-27"],
+y: ["null","null","null","null","null","null","null","null","null","null"],
 showlegend: true,
 mode: 'lines+markers',
 xaxis: 'x',
@@ -2465,8 +2465,8 @@ name: 'RELEASED',
 };
 var trace5 =
 {
-x: ["2020-03-11","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-23","2020-03-24","2020-03-25","2020-03-26"],
-y: ["null","null","null","null","null","null","null","null","null"],
+x: ["2020-03-11","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-23","2020-03-24","2020-03-25","2020-03-26","2020-03-27"],
+y: ["null","null","null","null","null","null","null","null","null","0"],
 showlegend: true,
 mode: 'lines+markers',
 xaxis: 'x',
@@ -2476,8 +2476,8 @@ name: 'DEAD',
 };
 var trace6 =
 {
-x: ["2020-03-11","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-23","2020-03-24","2020-03-25","2020-03-26"],
-y: ["4","21","3","5","3","3","3","2","4"],
+x: ["2020-03-11","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-23","2020-03-24","2020-03-25","2020-03-26","2020-03-27"],
+y: ["4","21","3","5","3","3","3","2","4","6"],
 showlegend: true,
 mode: 'lines+markers',
 xaxis: 'x',
@@ -2487,8 +2487,8 @@ name: 'NEW_CONFIRMED',
 };
 var trace7 =
 {
-x: ["2020-03-11","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-23","2020-03-24","2020-03-25","2020-03-26"],
-y: ["0","0","0","0","0","0","0","0","0"],
+x: ["2020-03-11","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-23","2020-03-24","2020-03-25","2020-03-26","2020-03-27"],
+y: ["0","0","0","0","0","0","0","0","0","0"],
 showlegend: true,
 mode: 'lines+markers',
 xaxis: 'x',
