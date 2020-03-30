@@ -17,7 +17,7 @@ th {
 </style>
 </head>
 <body>
-<p>COVID-19 cases in Switzerland.</p><p>Source: openZH <a target="_blank" href="https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total.csv">here</a>.</p><p>Last reported date: 2020-03-30. Page updated 2020-03-30T10:30:53.747Z[UTC].</p><p><a target="_blank" href="https://smpawlowski.github.io/covid19/">[Global]</a> <a target="_blank" href="https://neherlab.org/covid19/">[SEIR model scenarios]</a></p><div class="share-page">
+<p>COVID-19 cases in Switzerland.</p><p>Source: openZH <a target="_blank" href="https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total.csv">here</a>.</p><p>Last reported date: 2020-03-30. Page updated 2020-03-30T10:40:53.766Z[UTC].</p><p><a target="_blank" href="https://smpawlowski.github.io/covid19/">[Global]</a> <a target="_blank" href="https://neherlab.org/covid19/">[SEIR model scenarios]</a></p><div class="share-page">
     Share &rarr;     <a target="_blank" href="https://twitter.com/intent/tweet?url=https://smpawlowski.github.io/covid19/">[Twitter]</a>     <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsmpawlowski.github.io%2Fcovid19%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">[Facebook]</a>     <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=https://smpawlowski.github.io/covid19/">[LinkedIn]</a> </div>    <div id='div0' ></div>
     <div id='div1' ></div>
     <div id='div2' ></div>
@@ -1046,7 +1046,119 @@ Plotly.newPlot(target_div8, data, layout);            </script>
     <script>
         var target_div9 = document.getElementById('div9');
         var layout = {
-    title: '9. FR: 477 CONFIRMED',
+    title: '9. GR: 497 CONFIRMED',
+    height: 720,
+    width: 1280,
+    xaxis: {
+    title: 'DT',
+    },
+
+    yaxis: {
+    title: 'TOTAL_CASES',
+    },
+    yaxis2: {
+    title: 'NEW_CASES',
+    side: 'right',
+    overlaying: 'y'
+    },
+
+};
+
+var trace0 =
+{
+x: ["2020-03-18","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-24","2020-03-25","2020-03-26","2020-03-27","2020-03-30"],
+y: ["116","145","213","239","266","276","322","373","409","497"],
+showlegend: true,
+mode: 'lines+markers',
+xaxis: 'x',
+yaxis: 'y',
+type: 'scatter',
+name: 'CONFIRMED',
+};
+var trace1 =
+{
+x: ["2020-03-18","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-24","2020-03-25","2020-03-26","2020-03-27","2020-03-30"],
+y: ["13","18","24","24","27","29","43","45","52","63"],
+showlegend: true,
+mode: 'lines+markers',
+xaxis: 'x',
+yaxis: 'y',
+type: 'scatter',
+name: 'HOSPITALIZED',
+};
+var trace2 =
+{
+x: ["2020-03-18","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-24","2020-03-25","2020-03-26","2020-03-27","2020-03-30"],
+y: ["null","null","null","null","null","null","null","null","null","null"],
+showlegend: true,
+mode: 'lines+markers',
+xaxis: 'x',
+yaxis: 'y',
+type: 'scatter',
+name: 'VENT',
+};
+var trace3 =
+{
+x: ["2020-03-18","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-24","2020-03-25","2020-03-26","2020-03-27","2020-03-30"],
+y: ["null","null","null","null","null","null","null","null","null","null"],
+showlegend: true,
+mode: 'lines+markers',
+xaxis: 'x',
+yaxis: 'y',
+type: 'scatter',
+name: 'ICU',
+};
+var trace4 =
+{
+x: ["2020-03-18","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-24","2020-03-25","2020-03-26","2020-03-27","2020-03-30"],
+y: ["null","null","null","null","null","null","null","null","null","null"],
+showlegend: true,
+mode: 'lines+markers',
+xaxis: 'x',
+yaxis: 'y',
+type: 'scatter',
+name: 'RELEASED',
+};
+var trace5 =
+{
+x: ["2020-03-18","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-24","2020-03-25","2020-03-26","2020-03-27","2020-03-30"],
+y: ["1","1","3","3","6","6","6","9","9","12"],
+showlegend: true,
+mode: 'lines+markers',
+xaxis: 'x',
+yaxis: 'y',
+type: 'scatter',
+name: 'DEAD',
+};
+var trace6 =
+{
+x: ["2020-03-18","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-24","2020-03-25","2020-03-26","2020-03-27","2020-03-30"],
+y: ["116","29","68","26","27","10","46","51","36","88"],
+showlegend: true,
+mode: 'lines+markers',
+xaxis: 'x',
+yaxis: 'y2',
+type: 'scatter',
+name: 'NEW_CONFIRMED',
+};
+var trace7 =
+{
+x: ["2020-03-18","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-24","2020-03-25","2020-03-26","2020-03-27","2020-03-30"],
+y: ["1","0","2","0","3","0","0","3","0","3"],
+showlegend: true,
+mode: 'lines+markers',
+xaxis: 'x',
+yaxis: 'y2',
+type: 'scatter',
+name: 'NEW_DEAD',
+};
+
+        var data = [ trace0, trace1, trace2, trace3, trace4, trace5, trace6, trace7];
+Plotly.newPlot(target_div9, data, layout);            </script>
+    <script>
+        var target_div10 = document.getElementById('div10');
+        var layout = {
+    title: '10. FR: 477 CONFIRMED',
     height: 720,
     width: 1280,
     xaxis: {
@@ -1145,118 +1257,6 @@ var trace7 =
 {
 x: ["2020-03-01","2020-03-02","2020-03-04","2020-03-05","2020-03-08","2020-03-09","2020-03-11","2020-03-12","2020-03-13","2020-03-14","2020-03-15","2020-03-16","2020-03-17","2020-03-18","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-23","2020-03-24","2020-03-25","2020-03-26","2020-03-27","2020-03-28","2020-03-29","2020-03-30"],
 y: ["0","0","0","0","0","0","0","0","0","0","0","0","0","1","0","0","1","1","1","1","1","5","4","0","1","1"],
-showlegend: true,
-mode: 'lines+markers',
-xaxis: 'x',
-yaxis: 'y2',
-type: 'scatter',
-name: 'NEW_DEAD',
-};
-
-        var data = [ trace0, trace1, trace2, trace3, trace4, trace5, trace6, trace7];
-Plotly.newPlot(target_div9, data, layout);            </script>
-    <script>
-        var target_div10 = document.getElementById('div10');
-        var layout = {
-    title: '10. GR: 409 CONFIRMED',
-    height: 720,
-    width: 1280,
-    xaxis: {
-    title: 'DT',
-    },
-
-    yaxis: {
-    title: 'TOTAL_CASES',
-    },
-    yaxis2: {
-    title: 'NEW_CASES',
-    side: 'right',
-    overlaying: 'y'
-    },
-
-};
-
-var trace0 =
-{
-x: ["2020-03-18","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-24","2020-03-25","2020-03-26","2020-03-27"],
-y: ["116","145","213","239","266","276","322","373","409"],
-showlegend: true,
-mode: 'lines+markers',
-xaxis: 'x',
-yaxis: 'y',
-type: 'scatter',
-name: 'CONFIRMED',
-};
-var trace1 =
-{
-x: ["2020-03-18","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-24","2020-03-25","2020-03-26","2020-03-27"],
-y: ["13","18","24","24","27","29","43","45","52"],
-showlegend: true,
-mode: 'lines+markers',
-xaxis: 'x',
-yaxis: 'y',
-type: 'scatter',
-name: 'HOSPITALIZED',
-};
-var trace2 =
-{
-x: ["2020-03-18","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-24","2020-03-25","2020-03-26","2020-03-27"],
-y: ["null","null","null","null","null","null","null","null","null"],
-showlegend: true,
-mode: 'lines+markers',
-xaxis: 'x',
-yaxis: 'y',
-type: 'scatter',
-name: 'VENT',
-};
-var trace3 =
-{
-x: ["2020-03-18","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-24","2020-03-25","2020-03-26","2020-03-27"],
-y: ["null","null","null","null","null","null","null","null","null"],
-showlegend: true,
-mode: 'lines+markers',
-xaxis: 'x',
-yaxis: 'y',
-type: 'scatter',
-name: 'ICU',
-};
-var trace4 =
-{
-x: ["2020-03-18","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-24","2020-03-25","2020-03-26","2020-03-27"],
-y: ["null","null","null","null","null","null","null","null","null"],
-showlegend: true,
-mode: 'lines+markers',
-xaxis: 'x',
-yaxis: 'y',
-type: 'scatter',
-name: 'RELEASED',
-};
-var trace5 =
-{
-x: ["2020-03-18","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-24","2020-03-25","2020-03-26","2020-03-27"],
-y: ["1","1","3","3","6","6","6","9","9"],
-showlegend: true,
-mode: 'lines+markers',
-xaxis: 'x',
-yaxis: 'y',
-type: 'scatter',
-name: 'DEAD',
-};
-var trace6 =
-{
-x: ["2020-03-18","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-24","2020-03-25","2020-03-26","2020-03-27"],
-y: ["116","29","68","26","27","10","46","51","36"],
-showlegend: true,
-mode: 'lines+markers',
-xaxis: 'x',
-yaxis: 'y2',
-type: 'scatter',
-name: 'NEW_CONFIRMED',
-};
-var trace7 =
-{
-x: ["2020-03-18","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-24","2020-03-25","2020-03-26","2020-03-27"],
-y: ["1","0","2","0","3","0","0","3","0"],
 showlegend: true,
 mode: 'lines+markers',
 xaxis: 'x',
