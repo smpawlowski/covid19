@@ -17,7 +17,7 @@ th {
 </style>
 </head>
 <body>
-<p>COVID-19 cases in Switzerland.</p><p>Source: openZH <a target="_blank" href="https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total.csv">here</a>.</p><p>Last reported date: 2020-04-01. Page updated 2020-04-01T14:20:50.565Z[UTC].</p><p><a target="_blank" href="https://smpawlowski.github.io/covid19/">[Global]</a> <a target="_blank" href="https://neherlab.org/covid19/">[SEIR model scenarios]</a></p><div class="share-page">
+<p>COVID-19 cases in Switzerland.</p><p>Source: openZH <a target="_blank" href="https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total.csv">here</a>.</p><p>Last reported date: 2020-04-01. Page updated 2020-04-01T14:30:50.662Z[UTC].</p><p><a target="_blank" href="https://smpawlowski.github.io/covid19/">[Global]</a> <a target="_blank" href="https://neherlab.org/covid19/">[SEIR model scenarios]</a></p><div class="share-page">
     Share &rarr;     <a target="_blank" href="https://twitter.com/intent/tweet?url=https://smpawlowski.github.io/covid19/">[Twitter]</a>     <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsmpawlowski.github.io%2Fcovid19%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">[Facebook]</a>     <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=https://smpawlowski.github.io/covid19/">[LinkedIn]</a> </div>    <div id='div0' ></div>
     <div id='div1' ></div>
     <div id='div2' ></div>
@@ -114,7 +114,7 @@ name: 'Sum [ICU]',
 var trace4 =
 {
 x: ["2020-02-25","2020-02-26","2020-02-27","2020-02-28","2020-03-01","2020-03-02","2020-03-03","2020-03-04","2020-03-05","2020-03-06","2020-03-08","2020-03-09","2020-03-10","2020-03-11","2020-03-12","2020-03-13","2020-03-14","2020-03-15","2020-03-16","2020-03-17","2020-03-18","2020-03-19","2020-03-20","2020-03-22","2020-03-23","2020-03-24","2020-03-25","2020-03-26","2020-03-27","2020-03-28","2020-03-29","2020-03-30","2020-03-31"],
-y: ["0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","2.0","5.0","7.0","8.0","8.0","6.0","6.0","9.0","39.0","57.0","96.0","114.0","148.0","180.0","321.0","377.0","474.0","571.0","609.0","660.0","773.0","1058.0"],
+y: ["0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","3.0","7.0","9.0","10.0","10.0","8.0","11.0","14.0","52.0","73.0","112.0","132.0","169.0","215.0","361.0","423.0","539.0","647.0","709.0","775.0","931.0","1300.0"],
 showlegend: true,
 mode: 'lines+markers',
 xaxis: 'x',
@@ -999,7 +999,7 @@ name: 'ICU',
 var trace4 =
 {
 x: ["2020-02-28","2020-02-29","2020-03-01","2020-03-02","2020-03-03","2020-03-04","2020-03-05","2020-03-06","2020-03-07","2020-03-08","2020-03-09","2020-03-10","2020-03-11","2020-03-12","2020-03-13","2020-03-14","2020-03-15","2020-03-16","2020-03-17","2020-03-18","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-23","2020-03-24","2020-03-25","2020-03-26","2020-03-27","2020-03-28","2020-03-29","2020-03-30","2020-03-31","2020-04-01"],
-y: ["null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null"],
+y: ["null","null","null","null","null","null","null","null","null","null","1","2","2","2","2","2","5","5","13","16","16","18","21","21","35","40","46","65","76","100","115","158","242","249"],
 showlegend: true,
 mode: 'lines+markers',
 xaxis: 'x',
