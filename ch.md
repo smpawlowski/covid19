@@ -17,7 +17,7 @@ th {
 </style>
 </head>
 <body>
-<p>COVID-19 cases in Switzerland.</p><p>Source: openZH <a target="_blank" href="https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total.csv">here</a>.</p><p>Last reported date: 2020-04-02. Page updated 2020-04-02T12:10:49.186Z[UTC].</p><p><a target="_blank" href="https://smpawlowski.github.io/covid19/">[Global]</a> <a target="_blank" href="https://neherlab.org/covid19/">[SEIR model scenarios]</a></p><div class="share-page">
+<p>COVID-19 cases in Switzerland.</p><p>Source: openZH <a target="_blank" href="https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total.csv">here</a>.</p><p>Last reported date: 2020-04-02. Page updated 2020-04-02T12:20:49.216Z[UTC].</p><p><a target="_blank" href="https://smpawlowski.github.io/covid19/">[Global]</a> <a target="_blank" href="https://neherlab.org/covid19/">[SEIR model scenarios]</a></p><div class="share-page">
     Share &rarr;     <a target="_blank" href="https://twitter.com/intent/tweet?url=https://smpawlowski.github.io/covid19/">[Twitter]</a>     <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsmpawlowski.github.io%2Fcovid19%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">[Facebook]</a>     <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=https://smpawlowski.github.io/covid19/">[LinkedIn]</a> </div>    <div id='div0' ></div>
     <div id='div1' ></div>
     <div id='div2' ></div>
@@ -2502,7 +2502,7 @@ Plotly.newPlot(target_div21, data, layout);            </script>
     <script>
         var target_div22 = document.getElementById('div22');
         var layout = {
-    title: '22. AR: 63 CONFIRMED',
+    title: '22. AR: 64 CONFIRMED',
     height: 720,
     width: 1280,
     xaxis: {
@@ -2523,7 +2523,7 @@ Plotly.newPlot(target_div21, data, layout);            </script>
 var trace0 =
 {
 x: ["2020-03-05","2020-03-09","2020-03-12","2020-03-18","2020-03-21","2020-03-23","2020-03-24","2020-03-25","2020-03-26","2020-03-27","2020-03-28","2020-03-29","2020-03-30","2020-03-31","2020-04-01","2020-04-02"],
-y: ["1","2","5","11","null","30","33","34","42","44","45","48","50","58","61","63"],
+y: ["1","2","5","11","null","30","33","34","42","44","45","48","50","58","61","64"],
 showlegend: true,
 mode: 'lines+markers',
 xaxis: 'x',
@@ -2589,7 +2589,7 @@ name: 'DEAD',
 var trace6 =
 {
 x: ["2020-03-05","2020-03-09","2020-03-12","2020-03-18","2020-03-21","2020-03-23","2020-03-24","2020-03-25","2020-03-26","2020-03-27","2020-03-28","2020-03-29","2020-03-30","2020-03-31","2020-04-01","2020-04-02"],
-y: ["1","1","3","6","-11","30","3","1","8","2","1","3","2","8","3","2"],
+y: ["1","1","3","6","-11","30","3","1","8","2","1","3","2","8","3","3"],
 showlegend: true,
 mode: 'lines+markers',
 xaxis: 'x',
