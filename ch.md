@@ -17,7 +17,7 @@ th {
 </style>
 </head>
 <body>
-<p>COVID-19 cases in Switzerland.</p><p>Source: openZH <a target="_blank" href="https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total.csv">here</a>.</p><p>Last reported date: 2020-04-02. Page updated 2020-04-02T17:40:48.794Z[UTC].</p><p><a target="_blank" href="https://smpawlowski.github.io/covid19/">[Global]</a> <a target="_blank" href="https://neherlab.org/covid19/">[SEIR model scenarios]</a></p><div class="share-page">
+<p>COVID-19 cases in Switzerland.</p><p>Source: openZH <a target="_blank" href="https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total.csv">here</a>.</p><p>Last reported date: 2020-04-02. Page updated 2020-04-02T17:50:48.955Z[UTC].</p><p><a target="_blank" href="https://smpawlowski.github.io/covid19/">[Global]</a> <a target="_blank" href="https://neherlab.org/covid19/">[SEIR model scenarios]</a></p><div class="share-page">
     Share &rarr;     <a target="_blank" href="https://twitter.com/intent/tweet?url=https://smpawlowski.github.io/covid19/">[Twitter]</a>     <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsmpawlowski.github.io%2Fcovid19%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">[Facebook]</a>     <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=https://smpawlowski.github.io/covid19/">[LinkedIn]</a> </div>    <div id='div0' ></div>
     <div id='div1' ></div>
     <div id='div2' ></div>
@@ -125,7 +125,7 @@ name: 'Sum [RELEASED]',
 var trace5 =
 {
 x: ["2020-02-25","2020-02-26","2020-02-27","2020-02-28","2020-03-01","2020-03-02","2020-03-03","2020-03-04","2020-03-05","2020-03-06","2020-03-07","2020-03-08","2020-03-09","2020-03-11","2020-03-12","2020-03-13","2020-03-14","2020-03-15","2020-03-16","2020-03-17","2020-03-18","2020-03-19","2020-03-20","2020-03-22","2020-03-23","2020-03-24","2020-03-25","2020-03-26","2020-03-27","2020-03-28","2020-03-29","2020-03-30","2020-03-31","2020-04-01"],
-y: ["0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","1.0","2.0","3.0","5.0","6.0","7.0","12.0","17.0","27.0","28.0","37.0","44.0","67.0","94.0","124.0","149.0","175.0","221.0","246.0","271.0","303.0","369.0","442.0","502.0"],
+y: ["0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","1.0","2.0","3.0","5.0","6.0","7.0","12.0","17.0","27.0","28.0","37.0","44.0","67.0","94.0","124.0","149.0","175.0","221.0","246.0","271.0","303.0","369.0","442.0","503.0"],
 showlegend: true,
 mode: 'lines+markers',
 xaxis: 'x',
@@ -1750,7 +1750,7 @@ name: 'CONFIRMED',
 var trace1 =
 {
 x: ["2020-03-06","2020-03-18","2020-03-20","2020-03-23","2020-03-24","2020-03-25","2020-03-26","2020-03-27","2020-03-28","2020-03-29","2020-03-31","2020-04-01","2020-04-02"],
-y: ["null","null","null","null","null","null","null","null","null","null","null","null","null"],
+y: ["null","null","null","null","null","null","null","null","null","null","null","null","14"],
 showlegend: true,
 mode: 'lines+markers',
 xaxis: 'x',
@@ -2614,7 +2614,7 @@ Plotly.newPlot(target_div22, data, layout);            </script>
     <script>
         var target_div23 = document.getElementById('div23');
         var layout = {
-    title: '23. UR: 59 CONFIRMED',
+    title: '23. UR: 60 CONFIRMED',
     height: 720,
     width: 1280,
     xaxis: {
@@ -2635,7 +2635,7 @@ Plotly.newPlot(target_div22, data, layout);            </script>
 var trace0 =
 {
 x: ["2020-03-12","2020-03-18","2020-03-19","2020-03-20","2020-03-21","2020-03-23","2020-03-24","2020-03-26","2020-03-27","2020-03-28","2020-03-29","2020-03-30","2020-03-31","2020-04-01","2020-04-02"],
-y: ["2","5","7","7","12","22","25","38","40","48","50","53","57","59","59"],
+y: ["2","5","7","7","12","22","25","38","40","48","50","53","57","59","60"],
 showlegend: true,
 mode: 'lines+markers',
 xaxis: 'x',
@@ -2646,7 +2646,7 @@ name: 'CONFIRMED',
 var trace1 =
 {
 x: ["2020-03-12","2020-03-18","2020-03-19","2020-03-20","2020-03-21","2020-03-23","2020-03-24","2020-03-26","2020-03-27","2020-03-28","2020-03-29","2020-03-30","2020-03-31","2020-04-01","2020-04-02"],
-y: ["null","null","null","null","null","1","1","4","7","7","7","7","9","10","9"],
+y: ["null","null","null","null","null","1","1","4","7","7","7","7","9","10","4"],
 showlegend: true,
 mode: 'lines+markers',
 xaxis: 'x',
@@ -2690,7 +2690,7 @@ name: 'RELEASED',
 var trace5 =
 {
 x: ["2020-03-12","2020-03-18","2020-03-19","2020-03-20","2020-03-21","2020-03-23","2020-03-24","2020-03-26","2020-03-27","2020-03-28","2020-03-29","2020-03-30","2020-03-31","2020-04-01","2020-04-02"],
-y: ["null","null","null","null","null","null","null","null","null","null","null","null","null","null","1"],
+y: ["null","null","null","null","null","null","null","null","null","null","null","null","null","1","1"],
 showlegend: true,
 mode: 'lines+markers',
 xaxis: 'x',
@@ -2701,7 +2701,7 @@ name: 'DEAD',
 var trace6 =
 {
 x: ["2020-03-12","2020-03-18","2020-03-19","2020-03-20","2020-03-21","2020-03-23","2020-03-24","2020-03-26","2020-03-27","2020-03-28","2020-03-29","2020-03-30","2020-03-31","2020-04-01","2020-04-02"],
-y: ["2","3","2","0","5","10","3","13","2","8","2","3","4","2","0"],
+y: ["2","3","2","0","5","10","3","13","2","8","2","3","4","2","1"],
 showlegend: true,
 mode: 'lines+markers',
 xaxis: 'x',
@@ -2712,7 +2712,7 @@ name: 'NEW_CONFIRMED',
 var trace7 =
 {
 x: ["2020-03-12","2020-03-18","2020-03-19","2020-03-20","2020-03-21","2020-03-23","2020-03-24","2020-03-26","2020-03-27","2020-03-28","2020-03-29","2020-03-30","2020-03-31","2020-04-01","2020-04-02"],
-y: ["0","0","0","0","0","0","0","0","0","0","0","0","0","0","1"],
+y: ["0","0","0","0","0","0","0","0","0","0","0","0","0","1","0"],
 showlegend: true,
 mode: 'lines+markers',
 xaxis: 'x',
