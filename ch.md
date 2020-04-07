@@ -17,7 +17,7 @@ th {
 </style>
 </head>
 <body>
-<p>COVID-19 cases in Switzerland.</p><p>Source: openZH <a target="_blank" href="https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total.csv">here</a>.</p><p>Last reported date: 2020-04-07. Page updated 2020-04-07T13:13:03.848Z[UTC].</p><p><a target="_blank" href="https://smpawlowski.github.io/covid19/">[Global]</a> <a target="_blank" href="https://neherlab.org/covid19/">[SEIR model scenarios]</a></p><div class="share-page">
+<p>COVID-19 cases in Switzerland.</p><p>Source: openZH <a target="_blank" href="https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total.csv">here</a>.</p><p>Last reported date: 2020-04-07. Page updated 2020-04-07T13:23:03.791Z[UTC].</p><p><a target="_blank" href="https://smpawlowski.github.io/covid19/">[Global]</a> <a target="_blank" href="https://neherlab.org/covid19/">[SEIR model scenarios]</a></p><div class="share-page">
     Share &rarr;     <a target="_blank" href="https://twitter.com/intent/tweet?url=https://smpawlowski.github.io/covid19/">[Twitter]</a>     <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsmpawlowski.github.io%2Fcovid19%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">[Facebook]</a>     <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=https://smpawlowski.github.io/covid19/">[LinkedIn]</a> </div>    <div id='div0' ></div>
     <div id='div1' ></div>
     <div id='div2' ></div>
@@ -81,7 +81,7 @@ name: 'Sum [CONFIRMED]',
 var trace1 =
 {
 x: ["2020-02-25","2020-02-26","2020-02-27","2020-02-28","2020-02-29","2020-03-01","2020-03-02","2020-03-03","2020-03-04","2020-03-05","2020-03-06","2020-03-07","2020-03-08","2020-03-09","2020-03-10","2020-03-11","2020-03-12","2020-03-13","2020-03-14","2020-03-15","2020-03-16","2020-03-17","2020-03-18","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-23","2020-03-24","2020-03-25","2020-03-26","2020-03-27","2020-03-28","2020-03-29","2020-03-30","2020-03-31","2020-04-01","2020-04-02","2020-04-03","2020-04-04","2020-04-05","2020-04-06","2020-04-07"],
-y: ["0.0","1.0","1.0","9.0","10.0","11.0","14.0","18.0","26.0","31.0","34.0","35.0","43.0","55.0","68.0","89.0","99.0","191.0","202.0","220.0","257.0","320.0","403.0","547.0","624.0","717.0","872.0","971.0","1079.0","1175.0","1481.0","1638.0","1753.0","1833.0","2049.0","2107.0","2193.0","2327.0","2356.0","2368.0","2375.0","2429.0","2434.0"],
+y: ["0.0","1.0","1.0","9.0","10.0","11.0","14.0","18.0","26.0","31.0","34.0","35.0","43.0","55.0","68.0","89.0","99.0","191.0","202.0","220.0","257.0","320.0","403.0","547.0","624.0","717.0","872.0","971.0","1079.0","1175.0","1481.0","1638.0","1753.0","1833.0","2049.0","2107.0","2193.0","2327.0","2356.0","2368.0","2375.0","2429.0","2436.0"],
 showlegend: true,
 mode: 'lines+markers',
 xaxis: 'x',
@@ -2870,7 +2870,7 @@ name: 'CONFIRMED',
 var trace1 =
 {
 x: ["2020-03-13","2020-03-14","2020-03-15","2020-03-16","2020-03-17","2020-03-18","2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-23","2020-03-24","2020-03-25","2020-03-26","2020-03-27","2020-03-28","2020-03-29","2020-03-30","2020-03-31","2020-04-01","2020-04-02","2020-04-03","2020-04-04","2020-04-05","2020-04-06","2020-04-07"],
-y: ["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0"],
+y: ["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","2"],
 showlegend: true,
 mode: 'lines+markers',
 xaxis: 'x',
