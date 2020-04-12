@@ -100,7 +100,6 @@ public class Covid19Charts {
 	}
 
 
-
 	public static class SwissCharts {
 
 		public static String download_CH_html_charts() throws IOException {
@@ -137,10 +136,9 @@ public class Covid19Charts {
 			figures.add(TableUtils.timeSeriesPlot(summary,
 					"DT",
 					new String[][]{dataCols,
-					               {"NEW_CONFIRMED",
-					                "NEW_DEAD"}},
+					               {"NEW_CONFIRMED", "NEW_DEAD"}},
 					new ScatterTrace.Mode[][]{modes,
-					                          {ScatterTrace.Mode.LINE_AND_MARKERS}},
+					                          {ScatterTrace.Mode.LINE_AND_MARKERS, ScatterTrace.Mode.LINE_AND_MARKERS}},
 					"CH CASES: " + String.format("%,d", (int) summary.numberColumn(1).max()) + " CONFIRMED",
 					new String[]{"TOTAL_CASES", "NEW_CASES"}));
 
