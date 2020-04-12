@@ -1,0 +1,1 @@
+start java -cp * charts.UpdateRunner update_website.cmd 10
