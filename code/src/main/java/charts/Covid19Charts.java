@@ -103,7 +103,7 @@ public class Covid19Charts {
 	public static class SwissCharts {
 
 		public static String download_CH_html_charts() throws IOException {
-			Table data = Table.read().url("https://raw.githubusercontent.com/openZH/covid_19/master/COVID19_Fallzahlen_CH_total.csv");
+			Table data = Table.read().url("https://raw.githubusercontent.com/openZH/covid_19/master/COVID19_Fallzahlen_CH_total_v2.csv");
 
 
 			final Table t = fillMissingAtPrevious(
@@ -111,9 +111,8 @@ public class Covid19Charts {
 							data.stringColumn("abbreviation_canton_and_fl").setName("REGION"),
 							data.intColumn("ncumul_conf").setName("CONFIRMED"),
 							data.intColumn("ncumul_deceased").setName("DEAD"),
-							data.intColumn("ncumul_hosp").setName("HOSPITALIZED"),
-							data.intColumn("ncumul_vent").setName("VENT"),
-							data.intColumn("ncumul_ICU").setName("ICU"),
+							data.intColumn("current_hosp").setName("HOSPITALIZED"),
+							data.intColumn("current_icu").setName("ICU"),
 							data.intColumn("ncumul_released").setName("RELEASED")));
 			Set<String> regions = new HashSet<>(t.stringColumn("REGION").asList());
 
@@ -131,7 +130,7 @@ public class Covid19Charts {
 			summary = summary.where(summary.intColumn("NEW_CONFIRMED").isGreaterThan(-1));
 
 			List<Figure>        figures  = new ArrayList<>();
-			String[]            dataCols = summary.columnNames().subList(1, 7).toArray(new String[0]);
+			String[]            dataCols = summary.columnNames().subList(1, 6).toArray(new String[0]);
 			ScatterTrace.Mode[] modes    = Arrays.stream(dataCols).map(c -> ScatterTrace.Mode.LINE_AND_MARKERS).toArray(ScatterTrace.Mode[]::new);
 			figures.add(TableUtils.timeSeriesPlot(summary,
 					"DT",
@@ -167,7 +166,7 @@ public class Covid19Charts {
 			}
 
 			return WebUtils.toHtml("<p>COVID-19 cases in Switzerland.</p>" +
-			                       "<p>Source: openZH <a target=\"_blank\" href=\"https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total.csv\">here</a>.</p>" +
+			                       "<p>Source: openZH <a target=\"_blank\" href=\"https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total_v2.csv\">here</a>.</p>" +
 			                       "<p>Last reported date: " + t.dateColumn("DT").max() + ". Page updated " + Instant.ofEpochMilli(System.currentTimeMillis()).atZone(ZoneId.of("UTC")) + ".</p>" +
 			                       "<p>" +
 			                       "<a target=\"_blank\" href=\"https://smpawlowski.github.io/covid19/\">[Global]</a> " +
