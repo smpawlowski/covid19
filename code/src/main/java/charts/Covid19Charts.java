@@ -188,6 +188,10 @@ public class Covid19Charts {
         }
     }
 
+    public static String columnNameContaning(Table t, String x) {
+        return t.columnNames().stream().filter(n->n.contains(x)).findFirst().orElseThrow(RuntimeException::new);
+    }
+
     @NotNull
     public static String download_html_charts() throws IOException {
         Table confirmed = toTimeSeries(Table.read().url("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv"), "CONFIRMED");
@@ -211,21 +215,23 @@ public class Covid19Charts {
         List<Figure> figures = new ArrayList<>();
         Table totalCases = t.summarize(t.column(2), t.column(3), t.column(4), t.column(5), AggregateFunctions.sum)
                 .by("DT");
-        String confirmed_name = totalCases.columnNames().stream().filter(n -> n.contains("CONFIRMED")).findFirst().orElseThrow(RuntimeException::new);
+        String confirmed_name = columnNameContaning(totalCases,"CONFIRMED");
         totalCases = totalCases.addColumns(d1(totalCases.numberColumn(confirmed_name), "NEW CONFIRMED"));
-        String dead_name = totalCases.columnNames().stream().filter(n -> n.contains("DEAD")).findFirst().orElseThrow(RuntimeException::new);
+        String dead_name = columnNameContaning(totalCases,"DEAD");
         totalCases = totalCases.addColumns(d1(totalCases.numberColumn(dead_name), "NEW DEAD"));
         System.out.println(totalCases.print());
 
+        String[] cumul_col_names = {"CONFIRMED", "ACTIVE", "RECOVERED", "DEAD"};
+        Table finalTotalCases = totalCases;
         figures.add(TableUtils.timeSeriesPlot(
                 totalCases,
                 "DT",
-                new String[][]{{totalCases.columnNames().get(1), totalCases.columnNames().get(2), totalCases.columnNames().get(3), totalCases.columnNames().get(4)},
-                        {totalCases.columnNames().get(5), totalCases.columnNames().get(6)}},
+                new String[][]{Arrays.stream(cumul_col_names).map(n -> columnNameContaning(finalTotalCases,n)).toArray(String[]::new),
+                        {"NEW CONFIRMED", "NEW DEAD"}},
                 new ScatterTrace.Mode[][]{{ScatterTrace.Mode.LINE_AND_MARKERS, ScatterTrace.Mode.LINE_AND_MARKERS, ScatterTrace.Mode.LINE_AND_MARKERS, ScatterTrace.Mode.LINE_AND_MARKERS},
                         {ScatterTrace.Mode.LINE_AND_MARKERS, ScatterTrace.Mode.LINE_AND_MARKERS}},
                 "GLOBAL CASES: " + String.format("%,d", (int) totalCases.numberColumn(confirmed_name).max()) + " CONFIRMED",
-                new String[]{"TOTAL_CASES", "NEW_CASES"}));
+                new String[]{"TOTAL CASES", "NEW CASES"}));
         int counter = 1;
         for (String region : topRegions.asList()) {
             Table tt = t.where(t.stringColumn("REGION").isEqualTo(region));
@@ -234,12 +240,12 @@ public class Covid19Charts {
             int num_confirmed = (int) tt.numberColumn("CONFIRMED").max();
             figures.add(TableUtils.timeSeriesPlot(tt,
                     "DT",
-                    new String[][]{{tt.columnNames().get(2), tt.columnNames().get(3), tt.columnNames().get(4), tt.columnNames().get(5)},
-                            {tt.columnNames().get(6), tt.columnNames().get(7)}},
+                    new String[][]{cumul_col_names,
+                            {"NEW CONFIRMED", "NEW DEAD"}},
                     new ScatterTrace.Mode[][]{{ScatterTrace.Mode.LINE_AND_MARKERS, ScatterTrace.Mode.LINE_AND_MARKERS, ScatterTrace.Mode.LINE_AND_MARKERS, ScatterTrace.Mode.LINE_AND_MARKERS},
                             {ScatterTrace.Mode.LINE_AND_MARKERS, ScatterTrace.Mode.LINE_AND_MARKERS}},
                     counter + ". " + region + ": " + String.format("%,d", num_confirmed) + " CONFIRMED",
-                    new String[]{"TOTAL_CASES", "NEW_CASES"}));
+                    new String[]{"TOTAL CASES", "NEW CASES"}));
             counter++;
         }
 
