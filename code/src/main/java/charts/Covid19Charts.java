@@ -210,7 +210,7 @@ public class Covid19Charts {
                 .fullOuter(true, dead, recovered)
                 .sortAscendingOn("DT");
         t = t.where(t.doubleColumn("CONFIRMED").isGreaterThan(0));
-        t = t.addColumns(t.nCol("CONFIRMED").subtract(t.nCol("RECOVERED")).setName("ACTIVE"));
+        t = t.addColumns(t.nCol("CONFIRMED").subtract(t.nCol("RECOVERED")).subtract(t.nCol("DEAD")).setName("ACTIVE"));
 
         List<Figure> figures = new ArrayList<>();
         Table totalCases = t.summarize(t.column(2), t.column(3), t.column(4), t.column(5), AggregateFunctions.sum)
