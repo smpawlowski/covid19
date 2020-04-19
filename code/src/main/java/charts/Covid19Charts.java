@@ -8,6 +8,7 @@ import tech.tablesaw.api.*;
 import tech.tablesaw.plotly.components.Figure;
 import tech.tablesaw.plotly.traces.ScatterTrace;
 
+import java.awt.*;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -17,6 +18,7 @@ import java.time.LocalDate;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
+import java.util.List;
 
 public class Covid19Charts {
 
@@ -185,6 +187,7 @@ public class Covid19Charts {
 
             final Path path = Paths.get(args.length == 0 ? "C:/temp/switzerland.html" : args[0]);
             Files.write(path, html.getBytes());
+            if(args.length==0) Desktop.getDesktop().open(path.toFile());
         }
     }
 
@@ -283,6 +286,7 @@ public class Covid19Charts {
 
         final Path path = Paths.get(args.length == 0 ? "C:/temp/index.html" : args[0]);
         Files.write(path, html.getBytes());
+        if(args.length==0) Desktop.getDesktop().open(path.toFile());
     }
 
 }
