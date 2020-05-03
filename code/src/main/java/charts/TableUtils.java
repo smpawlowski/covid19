@@ -1,6 +1,8 @@
 package charts;
 
 import org.jetbrains.annotations.Nullable;
+import tech.tablesaw.api.IntColumn;
+import tech.tablesaw.api.NumericColumn;
 import tech.tablesaw.api.Table;
 import tech.tablesaw.plotly.components.Axis;
 import tech.tablesaw.plotly.components.Figure;
@@ -9,6 +11,7 @@ import tech.tablesaw.plotly.traces.ScatterTrace;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.IntUnaryOperator;
 
 
 public class TableUtils {
@@ -69,5 +72,21 @@ public class TableUtils {
 		return new Figure(l.build(), traces.toArray(new ScatterTrace[0]));
 	}
 
+	public static IntColumn apply(IntColumn col, IntUnaryOperator f) {
+		for(int i=0; i<col.size(); i++) {
+			col.set(i, f.applyAsInt(col.getInt(i)));
+		}
+		return col;
+	}
 
+	public static IntColumn d1(NumericColumn<?> c, String name) {
+	    IntColumn increase = IntColumn.create(name);
+	    int previous = 0;
+	    for (int r = 0; r < c.size(); r++) {
+	        int x = (int) c.getDouble(r);
+	        increase.append(x - previous);
+	        previous = x;
+	    }
+	    return increase;
+	}
 }
